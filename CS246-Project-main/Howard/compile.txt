@@ -1,0 +1,148 @@
+g++ -std=c++14 -g -Wall -MMD    -c -o BA.o BA.cc
+BA.cc: In member function ‘virtual void BA::apply(Player*)’:
+BA.cc:6:7: error: invalid use of incomplete type ‘class Player’
+    6 |     PC->setATK(PC->getATK()+10);
+      |       ^~
+In file included from BA.h:3,
+                 from BA.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+BA.cc:6:18: error: invalid use of incomplete type ‘class Player’
+    6 |     PC->setATK(PC->getATK()+10);
+      |                  ^~
+In file included from BA.h:3,
+                 from BA.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: BA.o] Error 1
+make: *** No rule to make target 'Merchant.o', needed by 'a3q4'.
+g++ -std=c++14 -g -Wall -MMD    -c -o Barrier.o Barrier.cc
+Barrier.cc: In member function ‘virtual void Barrier::acquire(Player*)’:
+Barrier.cc:5:11: error: invalid use of incomplete type ‘class Player’
+    5 |         PC->setBarrier(true);
+      |           ^~
+In file included from Barrier.h:4,
+                 from Barrier.cc:1:
+Item.h:6:7: note: forward declaration of ‘class Player’
+    6 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: Barrier.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o BD.o BD.cc
+BD.cc: In member function ‘virtual void BD::apply(Player*)’:
+BD.cc:5:7: error: invalid use of incomplete type ‘class Player’
+    5 |     PC->setDEF(PC->getDEF()+10);
+      |       ^~
+In file included from BD.h:3,
+                 from BD.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+BD.cc:5:18: error: invalid use of incomplete type ‘class Player’
+    5 |     PC->setDEF(PC->getDEF()+10);
+      |                  ^~
+In file included from BD.h:3,
+                 from BD.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: BD.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o WA.o WA.cc
+WA.cc: In member function ‘virtual void WA::apply(Player*)’:
+WA.cc:7:7: error: invalid use of incomplete type ‘class Player’
+    7 |     PC->setATK(PC->getATK()-10);
+      |       ^~
+In file included from WA.h:3,
+                 from WA.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+WA.cc:7:18: error: invalid use of incomplete type ‘class Player’
+    7 |     PC->setATK(PC->getATK()-10);
+      |                  ^~
+In file included from WA.h:3,
+                 from WA.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: WA.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o Compass.o Compass.cc
+Compass.cc: In member function ‘virtual void Compass::acquire(Player*)’:
+Compass.cc:9:14: error: invalid use of incomplete type ‘class Cell’
+    9 |         stair->reveal();
+      |              ^~
+In file included from Compass.h:3,
+                 from Compass.cc:1:
+Entity.h:4:7: note: forward declaration of ‘class Cell’
+    4 | class Cell;
+      |       ^~~~
+make: *** [<builtin>: Compass.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o PH.o PH.cc
+PH.cc: In member function ‘virtual void PH::apply(Player*)’:
+PH.cc:9:7: error: invalid use of incomplete type ‘class Player’
+    9 |     PC->setHP(PC->getHP()-10);
+      |       ^~
+In file included from PH.h:3,
+                 from PH.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+PH.cc:9:17: error: invalid use of incomplete type ‘class Player’
+    9 |     PC->setHP(PC->getHP()-10);
+      |                 ^~
+In file included from PH.h:3,
+                 from PH.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: PH.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o WD.o WD.cc
+WD.cc: In member function ‘virtual void WD::apply(Player*)’:
+WD.cc:6:7: error: invalid use of incomplete type ‘class Player’
+    6 |     PC->setDEF(PC->getDEF()-10);
+      |       ^~
+In file included from WD.h:3,
+                 from WD.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+WD.cc:6:18: error: invalid use of incomplete type ‘class Player’
+    6 |     PC->setDEF(PC->getDEF()-10);
+      |                  ^~
+In file included from WD.h:3,
+                 from WD.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: WD.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o Entity.o Entity.cc
+Entity.cc: In member function ‘virtual void Entity::kill()’:
+Entity.cc:51:27: error: invalid use of incomplete type ‘class Cell’
+   51 |     this->getCurrentCell()->setEntity(nullptr);
+      |                           ^~
+In file included from Entity.cc:1:
+Entity.h:4:7: note: forward declaration of ‘class Cell’
+    4 | class Cell;
+      |       ^~~~
+make: *** [<builtin>: Entity.o] Error 1
+g++ -std=c++14 -g -Wall -MMD    -c -o RH.o RH.cc
+RH.cc: In member function ‘virtual void RH::apply(Player*)’:
+RH.cc:9:7: error: invalid use of incomplete type ‘class Player’
+    9 |     PC->setHP(PC->getHP()+10);
+      |       ^~
+In file included from RH.h:3,
+                 from RH.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+RH.cc:9:17: error: invalid use of incomplete type ‘class Player’
+    9 |     PC->setHP(PC->getHP()+10);
+      |                 ^~
+In file included from RH.h:3,
+                 from RH.cc:1:
+Potion.h:5:7: note: forward declaration of ‘class Player’
+    5 | class Player;
+      |       ^~~~~~
+make: *** [<builtin>: RH.o] Error 1
+make: Target 'a3q4' not remade because of errors.

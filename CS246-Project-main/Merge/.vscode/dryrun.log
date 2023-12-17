@@ -1,0 +1,45 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/u5/c29qin/cs246/s22/a5/proj/CS246-Project/Merge'
+g++ -std=c++14  -g -Wall -MMD    -c -o BA.o BA.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o Compass.o Compass.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Item.o Item.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Enemy.o Enemy.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Interpreter.o Interpreter.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o PH.o PH.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Small_horde.o Small_horde.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o WD.o WD.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o BD.o BD.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Dragon.o Dragon.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o Entity.o Entity.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Merchant.o Merchant.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Phoenix.o Phoenix.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Treasure.o Treasure.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Werewolf.o Werewolf.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o Barrier.o Barrier.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Dragon_horde.o Dragon_horde.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Floor.o Floor.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Merchant_horde.o Merchant_horde.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o Player.o Player.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Troll.o Troll.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Cell.o Cell.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Dwarf.o Dwarf.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Goblin.o Goblin.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Normal_horde.o Normal_horde.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o Potion.o Potion.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Vampire.o Vampire.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Chamber.o Chamber.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Elf.o Elf.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Human.o Human.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o Orc.o Orc.cc
+ 
+g++ -std=c++14  -g -Wall -MMD    -c -o RH.o RH.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o WA.o WA.cc
+g++ -std=c++14  -g -Wall -MMD    -c -o main.o main.cc
+g++ -std=c++14  -g -Wall -MMD  BA.o  Compass.o Item.o Enemy.o  Interpreter.o    PH.o  Small_horde.o    WD.o BD.o  Dragon.o Entity.o Merchant.o Phoenix.o  Treasure.o Werewolf.o Barrier.o  Dragon_horde.o   Floor.o  Merchant_horde.o Player.o Troll.o Cell.o   Dwarf.o  Goblin.o Normal_horde.o   Potion.o Vampire.o Chamber.o  Elf.o    Human.o  Orc.o    RH.o  WA.o main.o -o cc3k
+make: Leaving directory '/u5/c29qin/cs246/s22/a5/proj/CS246-Project/Merge'
+ 

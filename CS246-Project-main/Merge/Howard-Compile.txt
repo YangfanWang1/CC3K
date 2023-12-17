@@ -1,0 +1,57 @@
+g++ -std=c++14 -g -Wall -MMD  BA.o Compass.o Entity.o Merchant_horde.o Potion.o Treasure.o WD.o Barrier.o Normal_horde.o RH.o BD.o Dragon_horde.o PH.o Small_horde.o WA.o Merchant.o Enemy.o 
+/usr/bin/ld: Enemy.o: warning: relocation against `_ZN6Entity4seedE' in read-only section `.text'
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+/usr/bin/ld: Compass.o: in function `Compass::acquire(Player*)':
+/home/kali/CS246/Merge/Compass.cc:9: undefined reference to `Cell::reveal()'
+/usr/bin/ld: Entity.o: in function `Entity::kill()':
+/home/kali/CS246/Merge/Entity.cc:51: undefined reference to `Cell::setEntity(std::shared_ptr<Entity>)'
+/usr/bin/ld: WD.o: in function `WD::apply(Player*)':
+/home/kali/CS246/Merge/WD.cc:7: undefined reference to `typeinfo for Elf'
+/usr/bin/ld: Barrier.o: in function `Barrier::acquire(Player*)':
+/home/kali/CS246/Merge/Barrier.cc:5: undefined reference to `Player::setBarrier(bool)'
+/usr/bin/ld: PH.o: in function `PH::apply(Player*)':
+/home/kali/CS246/Merge/PH.cc:10: undefined reference to `typeinfo for Elf'
+/usr/bin/ld: WA.o: in function `WA::apply(Player*)':
+/home/kali/CS246/Merge/WA.cc:8: undefined reference to `typeinfo for Elf'
+/usr/bin/ld: Merchant.o: in function `Merchant::update()':
+/home/kali/CS246/Merge/Merchant.cc:25: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Merchant.cc:25: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Merchant.cc:28: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Merchant.cc:28: undefined reference to `Cell::getEntity() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Merchant.cc:31: undefined reference to `Player::getType[abi:cxx11]()'
+/usr/bin/ld: /home/kali/CS246/Merge/Merchant.cc:27: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: Merchant.o: in function `Merchant::kill()':
+/home/kali/CS246/Merge/Merchant.cc:47: undefined reference to `Cell::setEntity(std::shared_ptr<Entity>)'
+/usr/bin/ld: Enemy.o: in function `Enemy::moveRandom()':
+/home/kali/CS246/Merge/Enemy.cc:19: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:19: undefined reference to `Cell::getEntity() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:22: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:18: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:27: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:28: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:32: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:32: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:33: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:37: undefined reference to `Cell::getEntity() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:43: undefined reference to `Cell::transferEntity(Cell*)'
+/usr/bin/ld: Enemy.o: in function `Enemy::attackPlayer(Player*)':
+/home/kali/CS246/Merge/Enemy.cc:69: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:69: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:70: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:76: undefined reference to `Player::getBarrier()'
+/usr/bin/ld: Enemy.o: in function `Enemy::update()':
+/home/kali/CS246/Merge/Enemy.cc:92: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:92: undefined reference to `Entity::seed'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:94: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:94: undefined reference to `Cell::getEntity() const'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:97: undefined reference to `Player::getType[abi:cxx11]()'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:93: undefined reference to `Cell::getBlock() const'
+/usr/bin/ld: Enemy.o: in function `Enemy::kill(Player*)':
+/home/kali/CS246/Merge/Enemy.cc:116: undefined reference to `Player::getGold()'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:116: undefined reference to `Player::setGold(int)'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:118: undefined reference to `Cell::setEntity(std::shared_ptr<Entity>)'
+/usr/bin/ld: /home/kali/CS246/Merge/Enemy.cc:121: undefined reference to `Cell::setEntity(std::shared_ptr<Entity>)'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: a3q4] Error 1

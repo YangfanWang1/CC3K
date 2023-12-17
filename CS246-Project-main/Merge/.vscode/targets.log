@@ -1,0 +1,1043 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 11 05:45:04 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /u5/c29qin/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /u5/c29qin/cs246/s22/a5/proj/CS246-Project/Merge
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /u5/c29qin/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/node
+# makefile (from 'main.d', line 1)
+MAKEFILE_LIST :=  Makefile BA.d Compass.d Item.d Enemy.d Interpreter.d PH.d Small_horde.d WD.d BD.d Dragon.d Entity.d Merchant.d Phoenix.d Treasure.d Werewolf.d Barrier.d Dragon_horde.d Floor.d Merchant_horde.d Player.d Troll.d Cell.d Dwarf.d Goblin.d Normal_horde.d Potion.d Vampire.d Chamber.d Elf.d Human.d Orc.d RH.d WA.d main.d
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 2)
+CXXFLAGS = -std=c++14  -g -Wall -MMD 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/29699/bus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /u5/c29qin
+# environment
+SSH_CONNECTION = 72.138.138.18 21253 129.97.167.51 22
+# environment
+PATH = /u5/c29qin/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/u/cs246/pub:/u5/c29qin/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/29699
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/29699/vscode-ipc-1e39c9c6-e008-4662-97b4-b91bb605186c.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /u5/c29qin/cs246/s22/a5/proj/CS246-Project/Merge
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /u5/c29qin
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = c29qin
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 5)
+DEPENDS = ${OBJECTS:.o=.d}
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 7)
+EXEC = cc3k
+# environment
+XDG_SESSION_ID = 81593
+# environment
+USER = c29qin
+# makefile
+.DEFAULT_GOAL := cc3k
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /u5/c29qin/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_CA:
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 72.138.138.18 21253 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /u5/c29qin/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 1)
+CXX = g++
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 6)
+OBJECTS = BA.o  Compass.o Item.o Enemy.o  Interpreter.o    PH.o  Small_horde.o    WD.o BD.o  Dragon.o Entity.o Merchant.o Phoenix.o  Treasure.o Werewolf.o Barrier.o  Dragon_horde.o   Floor.o  Merchant_horde.o Player.o Troll.o Cell.o   Dwarf.o  Goblin.o Normal_horde.o   Potion.o Vampire.o Chamber.o  Elf.o    Human.o  Orc.o    RH.o  WA.o main.o
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=73/1024=7%, Rehash=0, Collisions=9/170=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 58, inode 7696695149288): 148 files, no impossibilities.
+
+# 148 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+Entity.o: Entity.cc Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Orc.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:46.642774642
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Floor.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Enemy.o: Enemy.cc Enemy.h Entity.h Cell.h Compass.h Item.h Player.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Interpreter.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dwarf.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:43.862767891
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Merchant_horde.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Treasure.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Vampire.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:45.450771747
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Human.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Chamber.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Compass.o: Compass.cc Compass.h Entity.h Cell.h Item.h Player.h Enemy.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+RH.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+PH.o: PH.cc PH.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Player.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Small_horde.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:33.642743075
+#  File has been updated.
+#  Successfully updated.
+
+BD.o: BD.cc BD.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Troll.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:43.022765852
+#  File has been updated.
+#  Successfully updated.
+
+Werewolf.o: Werewolf.cc Werewolf.h Enemy.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Enemy.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+WD.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:34.202744434
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Merchant.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:37.026751291
+#  File has been updated.
+#  Successfully updated.
+
+Cell.o: Cell.cc Cell.h Entity.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Compass.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PH.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Barrier.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+BA.o: BA.cc BA.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Floor.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:41.538762248
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Interpreter.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:32.350739937
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Merchant_horde.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:42.170763782
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Barrier.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Treasure.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:38.082753856
+#  File has been updated.
+#  Successfully updated.
+
+WA.o: WA.cc WA.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Human.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:46.24677368
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 20:37:03.923757527
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+BD.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon_horde.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Orc.o: Orc.cc Orc.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+RH.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:47.054775643
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Phoenix.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cell.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Potion.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Normal_horde.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Dwarf.o: Dwarf.cc Dwarf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Elf.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Vampire.o: Vampire.cc Vampire.h Enemy.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BA.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Item.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Goblin.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+WA.cc:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+Small_horde.o: Small_horde.cc Small_horde.h Treasure.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Orc.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:35.410747367
+#  File has been updated.
+#  Successfully updated.
+
+Troll.o: Troll.cc Troll.h Enemy.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Chamber.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Barrier.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:39.242756672
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Dwarf.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+WD.o: WD.cc WD.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Merchant.o: Merchant.cc Merchant.h Compass.h Entity.h Cell.h Item.h Player.h Enemy.h Treasure.h Merchant_horde.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Vampire.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Player.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Entity.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon_horde.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:39.8307581
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:47.838777546
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Small_horde.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Phoenix.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:37.490752418
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Enemy.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Floor.o: Floor.cc Floor.h BA.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h BD.h Barrier.h Item.h Chamber.h Dragon.h Dragon_horde.h Goblin.h Merchant.h Compass.h Merchant_horde.h Normal_horde.h PH.h Phoenix.h RH.h Small_horde.h Troll.h Vampire.h WA.h WD.h Werewolf.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Werewolf.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Potion.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:45.058770795
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Normal_horde.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:44.658769824
+#  File has been updated.
+#  Successfully updated.
+
+Interpreter.o: Interpreter.cc Interpreter.h Human.h Player.h Enemy.h Entity.h Cell.h Treasure.h BA.h Potion.h Elf.h BD.h Barrier.h Item.h Chamber.h Dwarf.h Floor.h Merchant.h Compass.h Orc.h PH.h RH.h Vampire.h WA.h WD.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Troll.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Merchant_horde.o: Merchant_horde.cc Merchant_horde.h Treasure.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Elf.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:45.858772738
+#  File has been updated.
+#  Successfully updated.
+
+Treasure.o: Treasure.cc Treasure.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Human.o: Human.cc Human.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Item.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:30.726735993
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Compass.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+WD.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Merchant.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PH.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+RH.o: RH.cc RH.h Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BD.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cc3k: BA.o Compass.o Item.o Enemy.o Interpreter.o PH.o Small_horde.o WD.o BD.o Dragon.o Entity.o Merchant.o Phoenix.o Treasure.o Werewolf.o Barrier.o Dragon_horde.o Floor.o Merchant_horde.o Player.o Troll.o Cell.o Dwarf.o Goblin.o Normal_horde.o Potion.o Vampire.o Chamber.o Elf.o Human.o Orc.o RH.o WA.o main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	${CXX} ${CXXFLAGS} ${OBJECTS} -o ${EXEC}
+
+# Not a target:
+Werewolf.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Floor.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Goblin.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Interpreter.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	rm ${DEPENDS} ${OBJECTS} ${EXEC}
+
+# Not a target:
+Entity.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:36.398749767
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Merchant_horde.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Treasure.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Human.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cell.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Player.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:42.634764909
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+WD.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Dragon.o: Dragon.cc Dragon.h Enemy.h Entity.h Cell.h Barrier.h Item.h Player.h Treasure.h Compass.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+RH.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BA.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Barrier.o: Barrier.cc Barrier.h Item.h Entity.h Cell.h Player.h Enemy.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Enemy.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:55:22.775153808
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+WA.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Chamber.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 20:24:57.529999396
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Compass.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:30.198734711
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Orc.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Dragon_horde.o: Dragon_horde.cc Dragon_horde.h Treasure.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PH.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:33.190741977
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cc Interpreter.h Human.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Phoenix.o: Phoenix.cc Phoenix.h Enemy.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dwarf.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Potion.o: Potion.cc Potion.h Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Normal_horde.o: Normal_horde.cc Normal_horde.h Treasure.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BD.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:34.778745833
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Vampire.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Elf.o: Elf.cc Elf.h Player.h Enemy.h Entity.h Cell.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Goblin.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:44.258768852
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Werewolf.d:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-07-26 21:52:38.662755264
+#  File has been updated.
+#  Successfully updated.
+
+Item.o: Item.cc Entity.h Cell.h Item.h Player.h Enemy.h Treasure.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Goblin.o: Goblin.cc Goblin.h Enemy.h Entity.h Cell.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Small_horde.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cell.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:43.478766959
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Troll.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Dragon_horde.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Chamber.o: Chamber.cc Chamber.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BA.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:29.634733342
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Phoenix.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Item.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Entity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Potion.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Merchant.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Normal_horde.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Elf.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+WA.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 21:52:47.434776565
+#  File has been updated.
+#  Successfully updated.
+
+Player.o: Player.cc Player.h Enemy.h Entity.h Cell.h Treasure.h Merchant.h Compass.h Item.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=141/1024=14%, Rehash=0, Collisions=42/523=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 154 / storage = 1440 B / avg = 9 B
+# current buf: size = 8162 B / used = 1440 B / count = 154 / avg = 9 B
+
+# strcache performance: lookups = 601 / hit rate = 74%
+# hash-table stats:
+# Load=154/8192=2%, Rehash=0, Collisions=3/601=0%
+# Finished Make data base on Thu Aug 11 05:45:04 2022
+
+ 
