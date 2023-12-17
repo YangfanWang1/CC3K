@@ -1,6 +1,6 @@
-# CS246-Project
+# Intro-OOP
 
-## CC3K - A group project made by Howard Zhu, Chris Qin, and Candice Wang
+## Assignments completed for an Object-Oriented Programming course taken in C++ at Uwaterloo.
 
 Introduction
 The main components of the project are floors and entities. There are five floors and five chambers per floor. Entities are composed of treasures, items, potions, enemies and players. Enemies, treasures and potions are generated on the floors, and the player can move on the floor to slay enemies to get treasures or items or to pick up treasure and potions. Enemies can move one square randomly within the confines of the chamber.
